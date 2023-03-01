@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gifs,
+.container .recipe {
+    width: 450px;
+    padding: 45px;
+    -webkit-filter: drop-shadow(15px 15px 15px #222);
+    filter: drop-shadow(15px 15px 15px #222);
+    margin-top: 2%;
+}
+
+.msg2,
+.msg {
+    color:#2E0404;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+    font-family: monospace, 'Times New Roman', Times, serif
+}
+
+.msg2 {
+    margin-top: 0%;
+    text-align: center  ;
+}
+
+body {
+    background-color: #b96d4a;
+}
+
+h1 {
+    color: #efd8a1;
+    text-align: center;
+    font-size: 45px;
+    font-family:monospace
+}
+
+#gifs {
+    text-align:center;
+width:40%;
+display:block;
+margin:auto;
+}
+
