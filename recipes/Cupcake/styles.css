@@ -66,32 +66,6 @@ h3 {
 }
 
 
-.button1,
-.button3 {
-    outline: none;
-    cursor: pointer;
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 12px 24px;
-    border: 0;
-    color: #efd8a1;
-    background: #080502;
-    line-height: 1.15;
-    font-size: 16px;
-    margin-left: 80%;
-    margin-bottom: 2%;
-    text-decoration: none;
-}
-
-.button1 {
-    margin-bottom: 0%;
-    margin-top: 3%;
-}
-
-.button3 {
-    margin-left: 10%;
-}
-
 .gifs {
     text-align:center;
     width:40%;
@@ -103,24 +77,19 @@ h3 {
     font-weight: 800;
 }
 
-a.buttonw {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    outline: none;
-    cursor: pointer;
-    font-weight: 600;
-    border-radius: 3px;
-    padding: 12px 24px;
-    border: 0;
+.butn {
+    display: inline-block;
+    background-color: black;
     color: #efd8a1;
-    background: #080502;
-    line-height: 1.15;
-    font-size: 16px;
-    margin-left: 80%;
+    padding: 18px;
+    margin-top: 1%;
+    margin-left: 10%;
     margin-bottom: 2%;
-    margin-top: 2%;
     text-decoration: none;
+    font-weight: 300;
+    font-family: monospace, 'Times New Roman', Times, serif
+}
+.butn.upper {
+    margin-bottom: 0%;
+    margin-top: 2%;
 }
